@@ -1,5 +1,5 @@
-resource "aws_vpc" "vpc-05f4c6e3d31691dec" {
-  cidr_block = "172.31.0.0/16"
+resource "aws_vpc" "vpc-test" {
+  cidr_block = "172.31.0.0/24"
   instance_tenancy = "default"
   tags = {
     Name = "Test-VPC"
